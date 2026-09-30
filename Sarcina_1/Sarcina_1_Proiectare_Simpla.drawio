@@ -19,10 +19,10 @@
         <mxCell id="ent_6" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="&lt;b&gt;ANGAJAT&lt;/b&gt;" vertex="1">
           <mxGeometry height="55" width="150" x="765" y="264" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_7" edge="1" parent="1" source="ent_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="rel_5" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
+        <mxCell id="e_rel1_7" edge="1" parent="1" source="ent_4" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0284C7;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#0284C7;labelBackgroundColor=#E0F2FE;labelBorderColor=#0284C7;" target="rel_5" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_8" edge="1" parent="1" source="rel_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="ent_6" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
+        <mxCell id="e_rel2_8" edge="1" parent="1" source="rel_5" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0284C7;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#0284C7;labelBackgroundColor=#E0F2FE;labelBorderColor=#0284C7;" target="ent_6" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" value="&lt;u&gt;&lt;b&gt;id_catedra&lt;/b&gt;&lt;/u&gt;" vertex="1">
@@ -123,10 +123,10 @@
         <mxCell id="ent_40" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="&lt;b&gt;JUCATOR&lt;/b&gt;" vertex="1">
           <mxGeometry height="55" width="150" x="2025" y="292" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_41" edge="1" parent="1" source="ent_38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="rel_39" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
+        <mxCell id="e_rel1_41" edge="1" parent="1" source="ent_38" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#16A34A;labelBackgroundColor=#DCFCE7;labelBorderColor=#16A34A;" target="rel_39" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_42" edge="1" parent="1" source="rel_39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="ent_40" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
+        <mxCell id="e_rel2_42" edge="1" parent="1" source="rel_39" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#16A34A;labelBackgroundColor=#DCFCE7;labelBorderColor=#16A34A;" target="ent_40" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" value="&lt;u&gt;&lt;b&gt;id_echipa&lt;/b&gt;&lt;/u&gt;" vertex="1">
@@ -231,10 +231,10 @@
         <mxCell id="ent_76" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="&lt;b&gt;CARTE&lt;/b&gt;" vertex="1">
           <mxGeometry height="55" width="150" x="765" y="742" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_77" edge="1" parent="1" source="ent_74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="rel_75" value="Mulți la Mulți (M:N)&lt;br/&gt;Mulți (M)">
+        <mxCell id="e_rel1_77" edge="1" parent="1" source="ent_74" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#D97706;labelBackgroundColor=#FEF3C7;labelBorderColor=#D97706;" target="rel_75" value="Mulți la Mulți (M:N)&lt;br/&gt;Mulți (M)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_78" edge="1" parent="1" source="rel_75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="ent_76" value="Mulți la Mulți (M:N)&lt;br/&gt;Mulți (N)">
+        <mxCell id="e_rel2_78" edge="1" parent="1" source="rel_75" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#D97706;labelBackgroundColor=#FEF3C7;labelBorderColor=#D97706;" target="ent_76" value="Mulți la Mulți (M:N)&lt;br/&gt;Mulți (N)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_79" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" value="&lt;u&gt;&lt;b&gt;id_autor&lt;/b&gt;&lt;/u&gt;" vertex="1">
@@ -333,10 +333,10 @@
         <mxCell id="ent_110" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="&lt;b&gt;CONTRACT&lt;/b&gt;" vertex="1">
           <mxGeometry height="55" width="150" x="2025" y="742" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_111" edge="1" parent="1" source="ent_108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="rel_109" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
+        <mxCell id="e_rel1_111" edge="1" parent="1" source="ent_108" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7C3AED;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#7C3AED;labelBackgroundColor=#EDE9FE;labelBorderColor=#7C3AED;" target="rel_109" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_112" edge="1" parent="1" source="rel_109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="ent_110" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
+        <mxCell id="e_rel2_112" edge="1" parent="1" source="rel_109" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7C3AED;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#7C3AED;labelBackgroundColor=#EDE9FE;labelBorderColor=#7C3AED;" target="ent_110" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_113" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" value="&lt;u&gt;&lt;b&gt;id_client&lt;/b&gt;&lt;/u&gt;" vertex="1">
@@ -441,10 +441,10 @@
         <mxCell id="ent_146" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="&lt;b&gt;MENTEE&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="1400" y="1300" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_147" edge="1" parent="1" source="ent_144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="rel_145" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
+        <mxCell id="e_rel1_147" edge="1" parent="1" source="ent_144" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E11D48;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#E11D48;labelBackgroundColor=#FFE4E8;labelBorderColor=#E11D48;" target="rel_145" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_148" edge="1" parent="1" source="rel_145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" target="ent_146" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
+        <mxCell id="e_rel2_148" edge="1" parent="1" source="rel_145" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E11D48;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#E11D48;labelBackgroundColor=#FFE4E8;labelBorderColor=#E11D48;" target="ent_146" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_149" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" value="&lt;u&gt;&lt;b&gt;id_mentor&lt;/b&gt;&lt;/u&gt;" vertex="1">

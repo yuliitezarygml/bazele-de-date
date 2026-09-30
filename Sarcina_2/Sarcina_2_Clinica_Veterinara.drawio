@@ -29,22 +29,22 @@
         <mxCell id="ent_9" value="&lt;b&gt;MEDIC_VETERINAR&lt;/b&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1495" y="970" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_10" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="ent_3" target="rel_4">
+        <mxCell id="e_rel1_10" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0284C7;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#0284C7;labelBackgroundColor=#E0F2FE;labelBorderColor=#0284C7;" edge="1" parent="1" source="ent_3" target="rel_4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_11" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_4" target="ent_5">
+        <mxCell id="e_rel2_11" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0284C7;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#0284C7;labelBackgroundColor=#E0F2FE;labelBorderColor=#0284C7;" edge="1" parent="1" source="rel_4" target="ent_5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_12" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="ent_5" target="rel_6">
+        <mxCell id="e_rel1_12" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#D97706;labelBackgroundColor=#FEF3C7;labelBorderColor=#D97706;" edge="1" parent="1" source="ent_5" target="rel_6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_13" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_6" target="ent_7">
+        <mxCell id="e_rel2_13" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#D97706;labelBackgroundColor=#FEF3C7;labelBorderColor=#D97706;" edge="1" parent="1" source="rel_6" target="ent_7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_14" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="ent_9" target="rel_8">
+        <mxCell id="e_rel1_14" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#16A34A;labelBackgroundColor=#DCFCE7;labelBorderColor=#16A34A;" edge="1" parent="1" source="ent_9" target="rel_8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_15" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_8" target="ent_7">
+        <mxCell id="e_rel2_15" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#16A34A;labelBackgroundColor=#DCFCE7;labelBorderColor=#16A34A;" edge="1" parent="1" source="rel_8" target="ent_7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_16" value="&lt;span style='border-bottom: 2px dashed #000000; font-weight: bold; text-decoration: underline dashed;'&gt;id_proprietar&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" vertex="1" parent="1">
@@ -266,7 +266,7 @@
         <mxCell id="rel_88" value="&lt;b&gt;Este_Un&lt;/b&gt;" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=2;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="648" width="140" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="e_spec_89" value="Ierarhie EER Disjunctă {d}&lt;br/&gt;Superclasă" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="ent_5" target="rel_88">
+        <mxCell id="e_spec_89" value="Ierarhie EER Disjunctă {d}&lt;br/&gt;Superclasă" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9333EA;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#9333EA;labelBackgroundColor=#F3E8FF;labelBorderColor=#9333EA;" edge="1" parent="1" source="ent_5" target="rel_88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_90" value="&lt;b&gt;CAINE&lt;/b&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
@@ -278,13 +278,13 @@
         <mxCell id="ent_92" value="&lt;b&gt;EXOTIC_PASARE&lt;/b&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1165" y="972" width="150" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="e_spec_93" value="Subclasă {d}&lt;br/&gt;Unu la Unu (1:1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_88" target="ent_90">
+        <mxCell id="e_spec_93" value="Subclasă {d}&lt;br/&gt;Unu la Unu (1:1)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E11D48;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#E11D48;labelBackgroundColor=#FFE4E8;labelBorderColor=#E11D48;" edge="1" parent="1" source="rel_88" target="ent_90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_spec_94" value="Subclasă {d}&lt;br/&gt;Unu la Unu (1:1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_88" target="ent_91">
+        <mxCell id="e_spec_94" value="Subclasă {d}&lt;br/&gt;Unu la Unu (1:1)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EA580C;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#EA580C;labelBackgroundColor=#FFEDD5;labelBorderColor=#EA580C;" edge="1" parent="1" source="rel_88" target="ent_91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_spec_95" value="Subclasă {d}&lt;br/&gt;Unu la Unu (1:1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_88" target="ent_92">
+        <mxCell id="e_spec_95" value="Subclasă {d}&lt;br/&gt;Unu la Unu (1:1)" style="endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0D9488;strokeWidth=2;fontStyle=1;fontSize=9;fontColor=#0D9488;labelBackgroundColor=#CCFBF1;labelBorderColor=#0D9488;" edge="1" parent="1" source="rel_88" target="ent_92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_96" value="&lt;span style='border-bottom: 2px dashed #000000; font-weight: bold; text-decoration: underline dashed;'&gt;id_animal&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" vertex="1" parent="1">

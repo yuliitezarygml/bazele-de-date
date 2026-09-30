@@ -50,10 +50,10 @@
         <mxCell id="e_rel2_16" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_7" target="ent_6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel1_17" value="Mulți la Mulți (M:N)&lt;br/&gt;Mulți (M)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="ent_8" target="rel_9">
+        <mxCell id="e_rel1_17" value="Unu la Mulți (1:N)&lt;br/&gt;Unu (1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=none;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="ent_8" target="rel_9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_rel2_18" value="Mulți la Mulți (M:N)&lt;br/&gt;Mulți (N)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_9" target="ent_10">
+        <mxCell id="e_rel2_18" value="Unu la Mulți (1:N)&lt;br/&gt;Mulți (N)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1E293B;strokeWidth=2;endArrow=classic;endSize=6;fontSize=11;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;labelBorderColor=#1E293B;" edge="1" parent="1" source="rel_9" target="ent_10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="attr_19" value="&lt;span style='border-bottom: 2px dashed #000000; font-weight: bold; text-decoration: underline dashed;'&gt;id_client&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;shadow=0;" vertex="1" parent="1">
