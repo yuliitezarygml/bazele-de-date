@@ -163,7 +163,7 @@ def table_scene(model):
  for i,(r,pts) in enumerate(routed):
   label=('1 : 1' if r.ca.endswith('1)') and r.cb.endswith('1)') else '1 : N')+' ('+r.verb.lower()+')'
   lx,ly=choose_label(scene,pts,ignore_edge='relation'+str(i));scene.label('label'+str(i),label,lx,ly,235,38,border=True,sz=16)
- header(scene,scene.title,'[PK] cheie primară • [FK] cheie străină • [PK/FK] cheie compusă / moștenită • [UQ] unic • verde pal = atribut suplimentar • date fictive')
+ header(scene,scene.title,'[PK] cheie primară • [FK] cheie străină • [PK/FK] cheie primară și străină • [UQ] unic • verde pal = atribut suplimentar • date fictive')
  footer(scene,model,height-180)
  return scene
 
@@ -179,9 +179,9 @@ def chen_model(model):
  scene=Scene(model.title+' — Diagrama ER / Chen',width=max(2200,nc*1400+140),height=nr*1100+510)
  nodes={};base={}
  for t in ts:
-  bx=70+t.pos[0]*1400;by=230+t.pos[1]*1100;x=bx+410;y=by+330
+  bx=70+t.pos[0]*1400;by=320+t.pos[1]*1100;x=bx+410;y=by+330
   node=scene.add('e_'+t.name,t.name,x,y,240,70,fill='#dbeafe',stroke='#6c8ebf',sz=21,bold=True,shadow=True,line_width=2);nodes[t.name]=node;base[t.name]=(bx,by)
-  slots=[(380,70),(20,100),(0,235),(20,480),(380,650),(740,480),(760,235),(740,100),(380,-25),(380,760)]
+  slots=[(380,70),(20,100),(0,235),(20,480),(380,650),(740,480),(760,235),(740,100),(740,-100),(0,-100)]
   for j,col in enumerate(t.cols):
    sx,sy=slots[j];sx+=bx;sy+=by;haspk='PK' in col.key;isfk=bool(col.ref);fill='#fff6bf' if haspk and not isfk else '#eff6ff' if isfk else '#ecfdf5' if col.extra else '#f5f5f5';stroke='#d79b00' if haspk and not isfk else '#2563eb' if isfk else '#64748b';label=col.name
    attr=scene.add(t.name+'_a'+str(j),label,sx,sy,300,60,'ellipse',fill,stroke,17,False,INK,underline=haspk,dashed=col.derived,line_width=2 if haspk else 1)
