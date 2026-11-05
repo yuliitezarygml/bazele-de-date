@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17" type="device">
+  <diagram id="S1_Tabele_1" name="1.A — Organizarea academică — Tabele relaționale">
+    <mxGraphModel grid="1" gridSize="10" guides="1" connect="1" tooltips="1" page="0" pageScale="1" pageWidth="3458" pageHeight="1226" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="relation0" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endSize=8;strokeWidth=2;strokeColor=#0f766e;dashed=0;exitX=1.0;exitY=0.4444444444444444;exitPerimeter=0;entryX=0.0;entryY=0.3125;entryPerimeter=0;" edge="1" parent="1" source="t_CATEDRA" target="t_ANGAJAT">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="911" y="400" as="sourcePoint" />
+            <mxPoint x="1811" y="400" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_CATEDRA" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="591" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_title" value="TABEL: CATEDRA" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="12" y="12" width="567" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_catedra&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="12" y="56" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_r0c0" value="10" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="12" y="122" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;denumire&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(80)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="186" y="56" width="134" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_r0c1" value="Informatică" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="186" y="122" width="134" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;sediu&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(80)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="320" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_r0c2" value="Blocul A" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="320" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;telefon&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(25)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="445" y="56" width="134" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CATEDRA_r0c3" value="022 111 100" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CATEDRA">
+          <mxGeometry x="445" y="122" width="134" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1811" y="320" width="747" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_title" value="TABEL: ANGAJAT" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#15803d;strokeColor=#15803d;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="12" width="723" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_angajat&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="56" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c0" value="101" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="122" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c0" value="102" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="160" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c0" value="103" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="198" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;nume&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c1" value="Rusu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c1" value="Popa" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c1" value="Lungu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;prenume&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c2" value="Ana" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c2" value="Ion" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c2" value="Irina" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;functie&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(50)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c3" value="Lector" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c3" value="Asistent" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c3" value="Secretar" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col4" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#2563eb;&quot;&gt;[FK] id_catedra&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="561" y="56" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c4" value="10" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="561" y="122" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c4" value="10" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="561" y="160" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c4" value="NULL" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#64748b;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="561" y="198" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="label0" value="1 : N (angajează)" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#0f766e;fontColor=#0f766e;fontSize=16;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1243.5" y="381.0" width="235" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="page_title" value="1.A — Organizarea academică — Tabele relaționale" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#1e293b;strokeColor=#0f172a;fontColor=white;fontSize=25;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="3358" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="[PK] cheie primară • [FK] cheie străină • [PK/FK] cheie compusă / moștenită • [UQ] unic • verde pal = atribut suplimentar • date fictive" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=none;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="105" width="3358" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Un angajat aparține la cel mult o catedră: FK id_catedra permite NULL. Fiecare catedră are cel puțin un angajat; această regulă se validează suplimentar față de FK." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1046" width="3358" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S1_Tabele_2" name="1.B — Managementul sportiv — Tabele relaționale">
+    <mxGraphModel grid="1" gridSize="10" guides="1" connect="1" tooltips="1" page="0" pageScale="1" pageWidth="3469" pageHeight="1226" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="relation0" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endSize=8;strokeWidth=2;strokeColor=#0f766e;dashed=0;exitX=1.0;exitY=0.3669724770642202;exitPerimeter=0;entryX=0.0;entryY=0.3125;entryPerimeter=0;" edge="1" parent="1" source="t_ECHIPA" target="t_JUCATOR">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="932" y="400" as="sourcePoint" />
+            <mxPoint x="1832" y="400" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_ECHIPA" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="612" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_title" value="TABEL: ECHIPA" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="12" y="12" width="588" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_echipa&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="12" y="56" width="164" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r0c0" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="12" y="122" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r1c0" value="2" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="12" y="160" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;denumire&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(80)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="176" y="56" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r0c1" value="Steaua Nordului" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="176" y="122" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r1c1" value="Orizont" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="176" y="160" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;oras&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="350" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r0c2" value="Bălți" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="350" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r1c2" value="Chișinău" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="350" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;an_fondare&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;SMALLINT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="475" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r0c3" value="2002" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="475" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ECHIPA_r1c3" value="2010" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ECHIPA">
+          <mxGeometry x="475" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1832" y="320" width="737" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_title" value="TABEL: JUCATOR" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#15803d;strokeColor=#15803d;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="12" y="12" width="713" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_jucator&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="12" y="56" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r0c0" value="11" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="12" y="122" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r1c0" value="12" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="12" y="160" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r2c0" value="13" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="12" y="198" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;nume&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="186" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r0c1" value="Lungu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="186" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r1c1" value="Rusu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="186" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r2c1" value="Popa" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="186" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;prenume&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="311" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r0c2" value="Dan" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="311" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r1c2" value="Mihai" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="311" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r2c2" value="Victor" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="311" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;pozitie&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(40)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="436" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r0c3" value="Portar" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="436" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r1c3" value="Fundaș" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="436" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r2c3" value="Atacant" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="436" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_col4" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#2563eb;&quot;&gt;[FK] id_echipa&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="561" y="56" width="164" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r0c4" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="561" y="122" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r1c4" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="561" y="160" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_JUCATOR_r2c4" value="2" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_JUCATOR">
+          <mxGeometry x="561" y="198" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="label0" value="1 : N (legitimează)" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#0f766e;fontColor=#0f766e;fontSize=16;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1264.5" y="381.0" width="235" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="page_title" value="1.B — Managementul sportiv — Tabele relaționale" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#1e293b;strokeColor=#0f172a;fontColor=white;fontSize=25;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="3369" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="[PK] cheie primară • [FK] cheie străină • [PK/FK] cheie compusă / moștenită • [UQ] unic • verde pal = atribut suplimentar • date fictive" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=none;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="105" width="3369" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Modelul este pentru un singur sezon. Un jucător este legitimat la exact o echipă. Pentru mai multe sezoane se introduce LOT(id_jucator,sezon,id_echipa), cu PK(id_jucator,sezon)." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1046" width="3369" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S1_Tabele_3" name="1.C — Activitatea editorială — Tabele relaționale">
+    <mxGraphModel grid="1" gridSize="10" guides="1" connect="1" tooltips="1" page="0" pageScale="1" pageWidth="4606" pageHeight="1226" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="relation0" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endSize=8;strokeWidth=2;strokeColor=#0f766e;dashed=0;exitX=1.0;exitY=0.3669724770642202;exitPerimeter=0;entryX=0.0;entryY=0.3125;entryPerimeter=0;" edge="1" parent="1" source="t_AUTOR" target="t_AUTOR_CARTE">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="873" y="400" as="sourcePoint" />
+            <mxPoint x="1773" y="400" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation1" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endSize=8;strokeWidth=2;strokeColor=#0f766e;dashed=0;exitX=0.0;exitY=0.3669724770642202;exitPerimeter=0;entryX=1.0;entryY=0.3125;entryPerimeter=0;" edge="1" parent="1" source="t_CARTE" target="t_AUTOR_CARTE">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3065" y="400" as="sourcePoint" />
+            <mxPoint x="2165" y="400" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_AUTOR" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="553" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_title" value="TABEL: AUTOR" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="12" y="12" width="529" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_autor&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="12" y="56" width="154" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r0c0" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="12" y="122" width="154" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r1c0" value="2" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="12" y="160" width="154" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;nume&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="166" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r0c1" value="Rusu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="166" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r1c1" value="Lungu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="166" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;prenume&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="291" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r0c2" value="Ana" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="291" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r1c2" value="Dan" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="291" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;tara&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(50)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="416" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r0c3" value="Moldova" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="416" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_r1c3" value="România" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR">
+          <mxGeometry x="416" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1773" y="320" width="392" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_title" value="TABEL: AUTOR_CARTE" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#15803d;strokeColor=#15803d;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="12" y="12" width="368" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK/FK] id_autor&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="12" y="56" width="184" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_r0c0" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="12" y="122" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_r1c0" value="2" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="12" y="160" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_r2c0" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="12" y="198" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK/FK] id_carte&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="196" y="56" width="184" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_r0c1" value="10" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="196" y="122" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_r1c1" value="10" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="196" y="160" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_AUTOR_CARTE_r2c1" value="11" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_AUTOR_CARTE">
+          <mxGeometry x="196" y="198" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="3065" y="320" width="641" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_title" value="TABEL: CARTE" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#6d28d9;strokeColor=#6d28d9;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="12" y="12" width="617" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_carte&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="12" y="56" width="154" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r0c0" value="10" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="12" y="122" width="154" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r1c0" value="11" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="12" y="160" width="154" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;titlu&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(150)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="166" y="56" width="194" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r0c1" value="Povești de toamnă" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="166" y="122" width="194" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r1c1" value="Drumul spre casă" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="166" y="160" width="194" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;an_publicare&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;SMALLINT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="360" y="56" width="144" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r0c2" value="2025" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="360" y="122" width="144" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r1c2" value="2026" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="360" y="160" width="144" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;limba&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(30)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="504" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r0c3" value="română" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="504" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CARTE_r1c3" value="română" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CARTE">
+          <mxGeometry x="504" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="label0" value="1 : N (contribuie)" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#0f766e;fontColor=#0f766e;fontSize=16;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1205.5" y="381.0" width="235" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="label1" value="1 : N (are autori)" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#0f766e;fontColor=#0f766e;fontSize=16;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="2497.5" y="381.0" width="235" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="page_title" value="1.C — Activitatea editorială — Tabele relaționale" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#1e293b;strokeColor=#0f172a;fontColor=white;fontSize=25;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="4506" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="[PK] cheie primară • [FK] cheie străină • [PK/FK] cheie compusă / moștenită • [UQ] unic • verde pal = atribut suplimentar • date fictive" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=none;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="105" width="4506" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Conceptual: AUTOR — Scrie — CARTE este M:N. Relațional: AUTOR_CARTE are PK(id_autor,id_carte), ambele câmpuri FK. Un autor poate exista înaintea primei publicații." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1046" width="4506" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S1_Tabele_4" name="1.D — Gestiunea juridică — Tabele relaționale">
+    <mxGraphModel grid="1" gridSize="10" guides="1" connect="1" tooltips="1" page="0" pageScale="1" pageWidth="3639" pageHeight="1226" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="relation0" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endSize=8;strokeWidth=2;strokeColor=#0f766e;dashed=0;exitX=1.0;exitY=0.3669724770642202;exitPerimeter=0;entryX=0.0;entryY=0.3125;entryPerimeter=0;" edge="1" parent="1" source="t_CLIENT" target="t_CONTRACT">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="400" as="sourcePoint" />
+            <mxPoint x="1970" y="400" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_CLIENT" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="750" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_title" value="TABEL: CLIENT" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="12" y="12" width="726" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_client&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="12" y="56" width="164" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r0c0" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="12" y="122" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r1c0" value="2" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="12" y="160" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;nume_denumire&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(150)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="176" y="56" width="154" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r0c1" value="Irina Popa" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="176" y="122" width="154" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r1c1" value="Nord SRL" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="176" y="160" width="154" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;adresa&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(150)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="330" y="56" width="274" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r0c2" value="Chișinău, str. Florilor 8" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="330" y="122" width="274" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r1c2" value="Bălți, str. Păcii 10" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="330" y="160" width="274" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;telefon&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(25)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="604" y="56" width="134" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r0c3" value="069 111 222" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="604" y="122" width="134" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CLIENT_r1c3" value="022 333 444" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CLIENT">
+          <mxGeometry x="604" y="160" width="134" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="320" width="769" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_title" value="TABEL: CONTRACT" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#15803d;strokeColor=#15803d;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="12" y="12" width="745" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] nr_contract&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(30)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="12" y="56" width="184" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r0c0" value="CTR-2026-01" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="12" y="122" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r1c0" value="CTR-2026-02" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="12" y="160" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r2c0" value="CTR-2026-03" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="12" y="198" width="184" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;data_semnare&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;DATE&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="196" y="56" width="144" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r0c1" value="2026-09-01" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="196" y="122" width="144" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r1c1" value="2026-10-01" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="196" y="160" width="144" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r2c1" value="2026-10-05" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="196" y="198" width="144" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;obiect&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(100)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="340" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r0c2" value="Internet" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="340" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r1c2" value="Mentenanță" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="340" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r2c2" value="Găzduire" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="340" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;valoare&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;DECIMAL(12,2)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="465" y="56" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r0c3" value="1500" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="465" y="122" width="128" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r1c3" value="2000" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="465" y="160" width="128" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r2c3" value="3500" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="465" y="198" width="128" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_col4" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#2563eb;&quot;&gt;[FK] id_client&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="593" y="56" width="164" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r0c4" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="593" y="122" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r1c4" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="593" y="160" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_CONTRACT_r2c4" value="2" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_CONTRACT">
+          <mxGeometry x="593" y="198" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="label0" value="1 : N (semnează)" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#0f766e;fontColor=#0f766e;fontSize=16;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1402.5" y="381.0" width="235" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="page_title" value="1.D — Gestiunea juridică — Tabele relaționale" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#1e293b;strokeColor=#0f172a;fontColor=white;fontSize=25;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="3539" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="[PK] cheie primară • [FK] cheie străină • [PK/FK] cheie compusă / moștenită • [UQ] unic • verde pal = atribut suplimentar • date fictive" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=none;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="105" width="3539" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Un client poate semna mai multe contracte, iar un contract este semnat de exact un client. id_client din CONTRACT este FK obligatorie." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1046" width="3539" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S1_Tabele_5" name="1.E — Ierarhia de mentorat — Tabele relaționale">
+    <mxGraphModel grid="1" gridSize="10" guides="1" connect="1" tooltips="1" page="0" pageScale="1" pageWidth="1966" pageHeight="1226" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="relation0" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endSize=8;strokeWidth=2;strokeColor=#0f766e;dashed=0;exitX=0.0;exitY=0.3125;exitPerimeter=0;entryX=0.0;entryY=0.46875;entryPerimeter=0;" edge="1" parent="1" source="t_ANGAJAT" target="t_ANGAJAT">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+              <mxPoint x="200" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_ANGAJAT" value="" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#94a3b8;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=2;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="746" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_title" value="TABEL: ANGAJAT" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=white;fontSize=22;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="12" width="722" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col0" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#b45309;text-decoration:underline;&quot;&gt;[PK] id_angajat&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fff9c4;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="56" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c0" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="122" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c0" value="2" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="160" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c0" value="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="12" y="198" width="174" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col1" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;nume&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(100)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c1" value="Ana Rusu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c1" value="Ion Popa" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c1" value="Dan Lungu" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="186" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col2" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;functie&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(50)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="56" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c2" value="Senior" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="122" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c2" value="Junior" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="160" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c2" value="Junior" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="311" y="198" width="125" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col3" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#404040;&quot;&gt;departament&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;VARCHAR(60)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="56" width="134" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c3" value="Dezvoltare" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="122" width="134" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c3" value="Dezvoltare" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="160" width="134" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c3" value="Dezvoltare" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="436" y="198" width="134" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_col4" value="&lt;div style=&quot;text-align:left;font-family:Menlo,monospace;padding:4px&quot;&gt;&lt;b style=&quot;color:#2563eb;&quot;&gt;[FK] id_mentor&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#64748b&quot;&gt;INT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=1;fontFamily=Menlo;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="570" y="56" width="164" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r0c4" value="NULL" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#64748b;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="570" y="122" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r1c4" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="570" y="160" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ANGAJAT_r2c4" value="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontColor=#404040;fontSize=16;fontStyle=0;fontFamily=Menlo;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="t_ANGAJAT">
+          <mxGeometry x="570" y="198" width="164" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="label0" value="1 : N (ghidează)" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=#0f766e;fontColor=#0f766e;fontSize=16;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="401.0" width="235" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="page_title" value="1.E — Ierarhia de mentorat — Tabele relaționale" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#1e293b;strokeColor=#0f172a;fontColor=white;fontSize=25;fontStyle=1;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1866" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="[PK] cheie primară • [FK] cheie străină • [PK/FK] cheie compusă / moștenită • [UQ] unic • verde pal = atribut suplimentar • date fictive" style="text;html=1;whiteSpace=wrap;fillColor=white;strokeColor=none;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="105" width="1866" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Asociere recursivă: aceeași entitate ANGAJAT apare în rolurile Mentor și Discipol. Pentru angajații în formare, id_mentor este obligatoriu; pentru ceilalți poate fi NULL. id_mentor ≠ id_angajat; nu se admit cicluri." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#334155;fontSize=17;fontStyle=0;fontFamily=Arial;align=left;verticalAlign=middle;spacing=6;strokeWidth=1;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1046" width="1866" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
