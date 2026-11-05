@@ -1,0 +1,20 @@
+-- Datele din enunț. Bază goală; SQL comun pentru SQL Server/SQLite.
+CREATE TABLE T(A INTEGER,B INTEGER,C INTEGER);
+INSERT INTO T VALUES (1,2,3),(5,6,7),(1,2,4);
+CREATE TABLE S(A INTEGER,B INTEGER);
+INSERT INTO S VALUES (3,4),(7,8),(1,2);
+CREATE VIEW R AS SELECT DISTINCT A,B FROM T;
+CREATE TABLE Student(idst INTEGER PRIMARY KEY,nume_prenume VARCHAR(60),grupa VARCHAR(10),forma VARCHAR(10));
+INSERT INTO Student VALUES (1,'Ana Rusu','IT21','buget'),(2,'Ion Munteanu','IT22','contract'),(3,'Maria Lungu','IT21','buget'),(4,'Victor Popa','IS21','contract'),(5,'Elena Cojocaru','IT22','buget'),(6,'Dan Moraru','IT22','contract'),(7,'Irina Botnaru','IS21','buget'),(8,'Pavel Guțu','IT21','contract');
+CREATE TABLE Curs(idcurs INTEGER PRIMARY KEY,denumire VARCHAR(80),credite INTEGER,semestru INTEGER);
+INSERT INTO Curs VALUES (101,'Matematică discretă',5,1),(102,'Programare procedurală',6,1),(103,'Arhitectura calculatoarelor',4,2),(104,'Programare orientată pe obiecte',6,2),(105,'Baze de date',5,3);
+CREATE TABLE Note(idst INTEGER REFERENCES Student(idst),idcurs INTEGER REFERENCES Curs(idcurs),data DATE,nota INTEGER,PRIMARY KEY(idst,idcurs,data));
+INSERT INTO Note VALUES (1,101,'2026-01-14',9),(1,102,'2026-01-21',8),(1,104,'2026-06-17',10),(2,101,'2026-01-14',6),(2,103,'2026-06-10',7),(3,101,'2026-01-14',10),(3,102,'2026-01-21',9),(3,103,'2026-06-10',8),(4,102,'2026-01-21',5),(5,104,'2026-06-17',7),(6,101,'2026-01-14',4),(6,101,'2026-02-05',6),(8,101,'2026-01-14',7),(8,104,'2026-06-17',6);
+CREATE TABLE Product(maker VARCHAR(1),model INTEGER PRIMARY KEY,type VARCHAR(10));
+INSERT INTO Product VALUES ('A',1001,'pc'),('A',1002,'pc'),('A',2001,'laptop'),('A',3001,'printer'),('B',1003,'pc'),('B',2002,'laptop'),('C',1004,'pc'),('C',2003,'laptop'),('C',2004,'laptop'),('C',3002,'printer'),('D',2005,'laptop'),('D',3003,'printer'),('E',1005,'pc'),('E',3004,'printer');
+CREATE TABLE PC(model INTEGER PRIMARY KEY REFERENCES Product(model),speed DECIMAL(3,1),ram INTEGER,ssd INTEGER,price DECIMAL(8,2));
+INSERT INTO PC VALUES (1001,3.2,16,512,850),(1002,2.8,8,256,520),(1003,3.6,32,1000,1350),(1004,2.8,16,512,780),(1005,3.2,8,256,520);
+CREATE TABLE Laptop(model INTEGER PRIMARY KEY REFERENCES Product(model),speed DECIMAL(3,1),ram INTEGER,ssd INTEGER,screen DECIMAL(3,1),price DECIMAL(8,2));
+INSERT INTO Laptop VALUES (2001,2.4,16,512,14,1100),(2002,2.8,8,256,15.6,640),(2003,3.2,32,1000,16,1900),(2004,2.4,8,512,13.3,780),(2005,1.8,8,256,15.6,520);
+CREATE TABLE Printer(model INTEGER PRIMARY KEY REFERENCES Product(model),color INTEGER,type VARCHAR(10),price DECIMAL(8,2));
+INSERT INTO Printer VALUES (3001,1,'inkjet',120),(3002,0,'laser',210),(3003,1,'laser',450),(3004,1,'inkjet',95);

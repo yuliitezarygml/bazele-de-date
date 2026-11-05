@@ -1,0 +1,29 @@
+-- Exercițiul 1
+SELECT A,B FROM R;
+
+-- Exercițiul 2
+SELECT A,B FROM R WHERE A+B<5;
+
+-- Exercițiul 3
+SELECT DISTINCT A FROM R;
+
+-- Exercițiul 4
+SELECT R.A AS R_A,R.B AS R_B,S.A AS S_A,S.B AS S_B FROM R CROSS JOIN S;
+
+-- Exercițiul 5
+SELECT R.A AS R_A,R.B AS R_B,S.A AS S_A,S.B AS S_B FROM R JOIN S ON R.B<S.B;
+
+-- Exercițiul 6
+SELECT * FROM R UNION SELECT * FROM R;
+
+-- Exercițiul 7
+SELECT * FROM R UNION SELECT * FROM S;
+
+-- Exercițiul 8
+SELECT * FROM R INTERSECT SELECT * FROM S;
+
+-- Exercițiul 9
+SELECT * FROM R EXCEPT SELECT * FROM S;
+
+-- Exercițiul 10
+SELECT * FROM S EXCEPT SELECT * FROM R;
