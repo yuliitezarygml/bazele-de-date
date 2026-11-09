@@ -1,0 +1,1276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Laboratoare revizuite" version="32.5.5">
+  <diagram name="1. Conceptual" id="p1">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="27" value="R5" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="21" target="21">
+          <mxGeometry as="geometry" relative="1" x="-0.21000000000000002">
+            <Array as="points">
+              <mxPoint x="1282.5" y="742" />
+              <mxPoint x="1490" y="742" />
+              <mxPoint x="1490" y="984" />
+              <mxPoint x="1282.5" y="984" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="R4" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="17" target="19">
+          <mxGeometry as="geometry" relative="1" x="-0.32">
+            <Array as="points">
+              <mxPoint x="222.5" y="808" />
+              <mxPoint x="592.5" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="R3" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="13" target="15">
+          <mxGeometry as="geometry" relative="1" x="-0.43000000000000005">
+            <Array as="points">
+              <mxPoint x="222.5" y="476" />
+              <mxPoint x="1032.5" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="R2" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry as="geometry" relative="1" x="-0.54">
+            <Array as="points">
+              <mxPoint x="1032.5" y="144" />
+              <mxPoint x="1402.5" y="144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="R1" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry as="geometry" relative="1" x="-0.65">
+            <Array as="points">
+              <mxPoint x="222.5" y="152" />
+              <mxPoint x="592.5" y="152" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Sarcina 1 / ER–EER" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Cinci scenarii de proiectare conceptuală" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ER/EER compact: entitate cu atribute în casetă; PK = atribut identificator. (min,max) de lângă numele entității indică participarea ei. ISA = subclasă; * = atribut suplimentar." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;CATEDRA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_catedra&lt;/b&gt;&lt;br&gt;denumire&lt;br&gt;facultate&lt;br&gt;birou" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="206" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;ANGAJAT_A&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] id_angajat&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;prenume&lt;br&gt;functie" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="430" y="206" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;ECHIPA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="170" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] id_echipa&lt;/b&gt;&lt;br&gt;denumire&lt;br&gt;oras&lt;br&gt;an_fondare" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="870" y="206" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;JUCATOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="170" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] id_jucator&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;prenume&lt;br&gt;numar_tricou" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="206" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;AUTOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] id_autor&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;prenume&lt;br&gt;nationalitate" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="546" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;CARTE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="510" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK] id_carte&lt;/b&gt;&lt;br&gt;titlu&lt;br&gt;an_publicare&lt;br&gt;gen_literar" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="870" y="546" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;CLIENT_J&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK] id_client&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;prenume&lt;br&gt;adresa" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="886" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;CONTRACT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="850" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK] id_contract&lt;/b&gt;&lt;br&gt;data_semnare&lt;br&gt;obiect&lt;br&gt;valoare" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="430" y="886" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;ANGAJAT_M&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="760" width="325" height="194" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;[PK] id_angajat&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;prenume&lt;br&gt;functie&lt;br&gt;senior&lt;br&gt;in_formare" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="796" width="325" height="158" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="ASOCIERI ȘI REGULI DE CITIRE" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="R1   CATEDRA (0,N) — angajează — ANGAJAT_A (0,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="R2   ECHIPA (0,N) — include în sezon — JUCATOR (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="R3   AUTOR (0,N) — scrie — CARTE (1,N)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="R4   CLIENT_J (0,N) — semnează — CONTRACT (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1393" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="R5   ANGAJAT_M (0,N) — ghidează (mentor → coleg) — ANGAJAT_M (0,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1436" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="1. Relațional" id="p2">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Sarcina 1 / Model relațional" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Cinci scenarii de proiectare conceptuală" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PK = cheie primară; FK = cheie străină; ? = NULL permis; * = atribut suplimentar. Fiecare FK indică explicit tabela țintă prin →; coloana țintă este în dicționarul de date. Unicitățile și regulile complete sunt în raport și SQL." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;CATEDRA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_catedra : INTEGER&lt;/b&gt;&lt;br&gt;denumire : TEXT&lt;br&gt;facultate : TEXT&lt;br&gt;birou : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="206" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;ANGAJAT_A&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="325" height="169" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] id_angajat : INTEGER&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;prenume : TEXT&lt;br&gt;functie : TEXT&lt;br&gt;[FK] id_catedra : INTEGER ? → CATEDRA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="430" y="206" width="325" height="133" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;ECHIPA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="170" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] id_echipa : INTEGER&lt;/b&gt;&lt;br&gt;denumire : TEXT&lt;br&gt;oras : TEXT&lt;br&gt;an_fondare : INTEGER" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="870" y="206" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;JUCATOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="170" width="325" height="169" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] id_jucator : INTEGER&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;prenume : TEXT&lt;br&gt;numar_tricou : INTEGER&lt;br&gt;[FK] id_echipa : INTEGER → ECHIPA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="206" width="325" height="133" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;AUTOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] id_autor : INTEGER&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;prenume : TEXT&lt;br&gt;nationalitate : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="546" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;CARTE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="510" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK] id_carte : INTEGER&lt;/b&gt;&lt;br&gt;titlu : TEXT&lt;br&gt;an_publicare : INTEGER&lt;br&gt;gen_literar : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="870" y="546" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;AUTOR_CARTE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="510" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK/FK] id_autor : INTEGER → AUTOR&lt;/b&gt;&lt;br&gt;&lt;b&gt;[PK/FK] id_carte : INTEGER → CARTE&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="430" y="546" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;CLIENT_J&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK] id_client : INTEGER&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;prenume : TEXT&lt;br&gt;adresa : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="886" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;CONTRACT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="850" width="325" height="169" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;[PK] id_contract : INTEGER&lt;/b&gt;&lt;br&gt;data_semnare : TEXT&lt;br&gt;obiect : TEXT&lt;br&gt;valoare : NUMERIC&lt;br&gt;[FK] id_client : INTEGER → CLIENT_J" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="430" y="886" width="325" height="133" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;ANGAJAT_M&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="760" width="325" height="219" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;[PK] id_angajat : INTEGER&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;prenume : TEXT&lt;br&gt;functie : TEXT&lt;br&gt;senior : INTEGER&lt;br&gt;in_formare : INTEGER&lt;br&gt;[FK] id_mentor : INTEGER ? → ANGAJAT_M" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="796" width="325" height="183" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="REFERINȚE ȘI CONSTRÂNGERI" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="Referințele FK sunt înscrise în tabele pentru a evita intersectarea liniilor. PK/FK marchează cheia partajată a unei subclase sau componentele unei asocieri." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="1570" height="52" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Cheile compuse se citesc împreună: toate atributele marcate PK formează cheia primară. O săgeată către o tabelă indică referința la cheia ei; cazul FK compusă OFERTA este explicat în raport." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="NOT NULL, UNIQUE, CHECK și detaliile de participare sunt enumerate în raport. Schema SQL și datele de exemplu permit verificarea separată a tuturor celor cinci sarcini." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1440" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2. Conceptual" id="p3">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="21" value="R5" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="7" target="15">
+          <mxGeometry as="geometry" relative="1" x="-0.21000000000000002">
+            <Array as="points">
+              <mxPoint x="740.0" y="157" />
+              <mxPoint x="523" y="157" />
+              <mxPoint x="523" y="652" />
+              <mxPoint x="740.0" y="652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="R4" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="7" target="13">
+          <mxGeometry as="geometry" relative="1" x="-0.32">
+            <Array as="points">
+              <mxPoint x="740.0" y="133" />
+              <mxPoint x="40" y="133" />
+              <mxPoint x="40" y="628" />
+              <mxPoint x="250.0" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="R3" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry as="geometry" relative="1" x="-0.43000000000000005">
+            <Array as="points">
+              <mxPoint x="1350.0" y="141" />
+              <mxPoint x="1126" y="141" />
+              <mxPoint x="1126" y="576" />
+              <mxPoint x="1350.0" y="576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="R2" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="11">
+          <mxGeometry as="geometry" relative="1" x="-0.54">
+            <Array as="points">
+              <mxPoint x="740.0" y="149" />
+              <mxPoint x="1133" y="149" />
+              <mxPoint x="1133" y="584" />
+              <mxPoint x="1350.0" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="R1" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry as="geometry" relative="1" x="-0.65">
+            <Array as="points">
+              <mxPoint x="250.0" y="157" />
+              <mxPoint x="740.0" y="157" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Sarcina 2 / ER–EER" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Clinica veterinară „PetCare Plus”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ER/EER compact: entitate cu atribute în casetă; PK = atribut identificator. (min,max) de lângă numele entității indică participarea ei. ISA = subclasă; * = atribut suplimentar." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;PROPRIETAR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="175" width="380" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_proprietar&lt;/b&gt;&lt;br&gt;nume_complet&lt;br&gt;adresa&lt;br&gt;email_contact *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="211" width="380" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;ANIMAL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="175" width="380" height="194" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] id_animal&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;rasa&lt;br&gt;varsta_ani&lt;br&gt;specie&lt;br&gt;greutate_kg *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="550" y="211" width="380" height="158" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;MEDIC&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="175" width="380" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] nr_legitimatie&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;specializare" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="211" width="380" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;CONSULTARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="610" width="380" height="194" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] id_consultare&lt;/b&gt;&lt;br&gt;data_ora&lt;br&gt;diagnostic&lt;br&gt;observatii&lt;br&gt;cost_total&lt;br&gt;tratament *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="646" width="380" height="158" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;CAINE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="380" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] id_animal&lt;/b&gt;&lt;br&gt;nivel_dresaj" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="706" width="380" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;PISICA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="380" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK] id_animal&lt;/b&gt;&lt;br&gt;mediu_viata" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="550" y="706" width="380" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="ASOCIERI ȘI REGULI DE CITIRE" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="R1   PROPRIETAR (0,N) — deține — ANIMAL (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="R2   ANIMAL (0,N) — are vizite — CONSULTARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="R3   MEDIC (0,N) — efectuează — CONSULTARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="R4   ANIMAL (0,1) — ISA · disjunctă, parțială — CAINE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1393" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="R5   ANIMAL (0,1) — ISA · disjunctă, parțială — PISICA (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1436" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2. Relațional" id="p4">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Sarcina 2 / Model relațional" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Clinica veterinară „PetCare Plus”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PK = cheie primară; FK = cheie străină; ? = NULL permis; * = atribut suplimentar. Fiecare FK indică explicit tabela țintă prin →; coloana țintă este în dicționarul de date. Unicitățile și regulile complete sunt în raport și SQL." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;PROPRIETAR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="175" width="380" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_proprietar : INTEGER&lt;/b&gt;&lt;br&gt;nume_complet : TEXT&lt;br&gt;adresa : TEXT&lt;br&gt;email_contact * : TEXT ?" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="211" width="380" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;ANIMAL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="175" width="380" height="219" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] id_animal : INTEGER&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;rasa : TEXT&lt;br&gt;varsta_ani : INTEGER&lt;br&gt;specie : TEXT&lt;br&gt;greutate_kg * : NUMERIC ?&lt;br&gt;[FK] id_proprietar : INTEGER → PROPRIETAR" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="550" y="211" width="380" height="183" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;MEDIC&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="175" width="380" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] nr_legitimatie : TEXT&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;specializare : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="211" width="380" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;CONSULTARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="610" width="380" height="244" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] id_consultare : INTEGER&lt;/b&gt;&lt;br&gt;data_ora : TEXT&lt;br&gt;diagnostic : TEXT&lt;br&gt;observatii : TEXT&lt;br&gt;cost_total : NUMERIC&lt;br&gt;tratament * : TEXT ?&lt;br&gt;[FK] id_animal : INTEGER → ANIMAL&lt;br&gt;[FK] nr_legitimatie : TEXT → MEDIC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="646" width="380" height="208" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;CAINE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="380" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK/FK] id_animal : INTEGER → ANIMAL&lt;/b&gt;&lt;br&gt;nivel_dresaj : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="706" width="380" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;PISICA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="380" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK/FK] id_animal : INTEGER → ANIMAL&lt;/b&gt;&lt;br&gt;mediu_viata : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="550" y="706" width="380" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="REFERINȚE ȘI CONSTRÂNGERI" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Referințele FK sunt înscrise în tabele pentru a evita intersectarea liniilor. PK/FK marchează cheia partajată a unei subclase sau componentele unei asocieri." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="1570" height="52" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Cheile compuse se citesc împreună: toate atributele marcate PK formează cheia primară. O săgeată către o tabelă indică referința la cheia ei; cazul FK compusă OFERTA este explicat în raport." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="NOT NULL, UNIQUE, CHECK și detaliile de participare sunt enumerate în raport. Schema SQL și datele de exemplu permit verificarea separată a tuturor celor cinci sarcini." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1440" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3. Conceptual" id="p5">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="37" value="R11" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="11" target="25">
+          <mxGeometry as="geometry" relative="1" x="0.45000000000000007">
+            <Array as="points">
+              <mxPoint x="1022.5" y="576" />
+              <mxPoint x="833" y="576" />
+              <mxPoint x="833" y="956" />
+              <mxPoint x="1022.5" y="956" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="R10" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="11" target="23">
+          <mxGeometry as="geometry" relative="1" x="0.33999999999999997">
+            <Array as="points">
+              <mxPoint x="1022.5" y="584" />
+              <mxPoint x="435" y="584" />
+              <mxPoint x="435" y="964" />
+              <mxPoint x="617.5" y="964" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="R9" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="11" target="21">
+          <mxGeometry as="geometry" relative="1" x="0.22999999999999998">
+            <Array as="points">
+              <mxPoint x="1022.5" y="592" />
+              <mxPoint x="16" y="592" />
+              <mxPoint x="16" y="972" />
+              <mxPoint x="212.5" y="972" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="R8" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="17" target="19">
+          <mxGeometry as="geometry" relative="1" x="0.12">
+            <Array as="points">
+              <mxPoint x="212.5" y="568" />
+              <mxPoint x="617.5" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="R7" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="19">
+          <mxGeometry as="geometry" relative="1" x="0.010000000000000009">
+            <Array as="points">
+              <mxPoint x="1022.5" y="576" />
+              <mxPoint x="617.5" y="576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="R6" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="19">
+          <mxGeometry as="geometry" relative="1" x="-0.09999999999999998">
+            <Array as="points">
+              <mxPoint x="617.5" y="134" />
+              <mxPoint x="421" y="134" />
+              <mxPoint x="421" y="584" />
+              <mxPoint x="617.5" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="R5" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="13">
+          <mxGeometry as="geometry" relative="1" x="-0.21000000000000002">
+            <Array as="points">
+              <mxPoint x="1022.5" y="592" />
+              <mxPoint x="1427.5" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="R4" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="13" target="15">
+          <mxGeometry as="geometry" relative="1" x="-0.32">
+            <Array as="points">
+              <mxPoint x="1427.5" y="568" />
+              <mxPoint x="1245" y="568" />
+              <mxPoint x="1245" y="118" />
+              <mxPoint x="1427.5" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="R3" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="15">
+          <mxGeometry as="geometry" relative="1" x="-0.43000000000000005">
+            <Array as="points">
+              <mxPoint x="1022.5" y="126" />
+              <mxPoint x="1427.5" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="R2" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry as="geometry" relative="1" x="-0.54">
+            <Array as="points">
+              <mxPoint x="1022.5" y="134" />
+              <mxPoint x="617.5" y="134" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="R1" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry as="geometry" relative="1" x="-0.65">
+            <Array as="points">
+              <mxPoint x="212.5" y="142" />
+              <mxPoint x="617.5" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Sarcina 3 / ER–EER" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Managementul logisticii „Global Express”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ER/EER compact: entitate cu atribute în casetă; PK = atribut identificator. (min,max) de lângă numele entității indică participarea ei. ISA = subclasă; * = atribut suplimentar." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;CLIENT_L&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="325" height="219" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_client&lt;/b&gt;&lt;br&gt;nume_denumire&lt;br&gt;strada&lt;br&gt;numar&lt;br&gt;oras&lt;br&gt;tara&lt;br&gt;telefon" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="196" width="325" height="183" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;RUTA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] id_ruta&lt;/b&gt;&lt;br&gt;denumire&lt;br&gt;durata_estimata_ore *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;COLET&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="160" width="325" height="219" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] tracking_id&lt;/b&gt;&lt;br&gt;greutate_kg&lt;br&gt;descriere&lt;br&gt;valoare_declarata&lt;br&gt;data_preluare&lt;br&gt;volum_cm3 *&lt;br&gt;fragil *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="196" width="325" height="183" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;PUNCT_TRANZIT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="610" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] cod_punct&lt;/b&gt;&lt;br&gt;denumire&lt;br&gt;localitate&lt;br&gt;tip" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="646" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;SEGMENT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="610" width="325" height="69" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] id_segment&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="646" width="325" height="33" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;RUTA_SEGMENT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="160" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK] id_ruta&lt;/b&gt;&lt;br&gt;&lt;b&gt;[PK] pozitie&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="196" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;ANGAJAT_L&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK] cod_personal&lt;/b&gt;&lt;br&gt;nume" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="646" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;SCANARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="610" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK] id_scanare&lt;/b&gt;&lt;br&gt;moment&lt;br&gt;tip_eveniment" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="646" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;DEPOZIT_REGIONAL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="990" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;[PK] cod_punct&lt;/b&gt;&lt;br&gt;capacitate_m3" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1026" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;HUB_AEROPORTUAR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="990" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;[PK] cod_punct&lt;/b&gt;&lt;br&gt;cod_aeroport" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1026" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="&lt;b&gt;CENTRU_SORTARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="990" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;b&gt;[PK] cod_punct&lt;/b&gt;&lt;br&gt;capacitate_colete_ora" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1026" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="ASOCIERI ȘI REGULI DE CITIRE" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="R1   CLIENT_L (0,N) — expediază / primește (2 roluri) — COLET (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="R2   RUTA (0,N) — planifică — COLET (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="R3   RUTA (1,N) — conține ordonat — RUTA_SEGMENT (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="R4   SEGMENT (0,N) — apare în — RUTA_SEGMENT (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1393" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="R5   PUNCT_TRANZIT (0,N) — plecare / sosire (2 roluri) — SEGMENT (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1436" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="R6   COLET (0,N) — este scanat — SCANARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1479" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="R7   PUNCT_TRANZIT (0,N) — localizează — SCANARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="R8   ANGAJAT_L (0,N) — execută — SCANARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="R9   PUNCT_TRANZIT (0,1) — ISA · disjunctă, totală — DEPOZIT_REGIONAL (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="R10   PUNCT_TRANZIT (0,1) — ISA · disjunctă, totală — HUB_AEROPORTUAR (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1393" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="R11   PUNCT_TRANZIT (0,1) — ISA · disjunctă, totală — CENTRU_SORTARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1436" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3. Relațional" id="p6">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Sarcina 3 / Model relațional" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Managementul logisticii „Global Express”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PK = cheie primară; FK = cheie străină; ? = NULL permis; * = atribut suplimentar. Fiecare FK indică explicit tabela țintă prin →; coloana țintă este în dicționarul de date. Unicitățile și regulile complete sunt în raport și SQL." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;CLIENT_L&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="325" height="219" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_client : INTEGER&lt;/b&gt;&lt;br&gt;nume_denumire : TEXT&lt;br&gt;strada : TEXT&lt;br&gt;numar : TEXT&lt;br&gt;oras : TEXT&lt;br&gt;tara : TEXT&lt;br&gt;telefon : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="196" width="325" height="183" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;RUTA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] id_ruta : INTEGER&lt;/b&gt;&lt;br&gt;denumire : TEXT&lt;br&gt;durata_estimata_ore * : NUMERIC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;COLET&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="160" width="325" height="294" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] tracking_id : TEXT&lt;/b&gt;&lt;br&gt;greutate_kg : NUMERIC&lt;br&gt;descriere : TEXT&lt;br&gt;valoare_declarata : NUMERIC&lt;br&gt;data_preluare : TEXT&lt;br&gt;volum_cm3 * : NUMERIC&lt;br&gt;fragil * : INTEGER&lt;br&gt;[FK] id_expeditor : INTEGER → CLIENT_L&lt;br&gt;[FK] id_destinatar : INTEGER → CLIENT_L&lt;br&gt;[FK] id_ruta : INTEGER → RUTA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="196" width="325" height="258" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;PUNCT_TRANZIT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="610" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] cod_punct : TEXT&lt;/b&gt;&lt;br&gt;denumire : TEXT&lt;br&gt;localitate : TEXT&lt;br&gt;tip : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="646" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;SEGMENT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="610" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] id_segment : INTEGER&lt;/b&gt;&lt;br&gt;[FK] cod_plecare : TEXT → PUNCT_TRANZIT&lt;br&gt;[FK] cod_sosire : TEXT → PUNCT_TRANZIT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="646" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;RUTA_SEGMENT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK/FK] id_ruta : INTEGER → RUTA&lt;/b&gt;&lt;br&gt;&lt;b&gt;[PK] pozitie : INTEGER&lt;/b&gt;&lt;br&gt;[FK] id_segment : INTEGER → SEGMENT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;ANGAJAT_L&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK] cod_personal : TEXT&lt;/b&gt;&lt;br&gt;nume : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="646" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;SCANARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="610" width="325" height="194" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK] id_scanare : INTEGER&lt;/b&gt;&lt;br&gt;moment : TEXT&lt;br&gt;tip_eveniment : TEXT&lt;br&gt;[FK] tracking_id : TEXT → COLET&lt;br&gt;[FK] cod_punct : TEXT → PUNCT_TRANZIT&lt;br&gt;[FK] cod_personal : TEXT → ANGAJAT_L" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="646" width="325" height="158" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;DEPOZIT_REGIONAL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="990" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;[PK/FK] cod_punct : TEXT → PUNCT_TRANZIT&lt;/b&gt;&lt;br&gt;capacitate_m3 : NUMERIC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1026" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;HUB_AEROPORTUAR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="990" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;[PK/FK] cod_punct : TEXT → PUNCT_TRANZIT&lt;/b&gt;&lt;br&gt;cod_aeroport : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1026" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="&lt;b&gt;CENTRU_SORTARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="990" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;b&gt;[PK/FK] cod_punct : TEXT → PUNCT_TRANZIT&lt;/b&gt;&lt;br&gt;capacitate_colete_ora : INTEGER" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1026" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="REFERINȚE ȘI CONSTRÂNGERI" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Referințele FK sunt înscrise în tabele pentru a evita intersectarea liniilor. PK/FK marchează cheia partajată a unei subclase sau componentele unei asocieri." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="1570" height="52" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Cheile compuse se citesc împreună: toate atributele marcate PK formează cheia primară. O săgeată către o tabelă indică referința la cheia ei; cazul FK compusă OFERTA este explicat în raport." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="NOT NULL, UNIQUE, CHECK și detaliile de participare sunt enumerate în raport. Schema SQL și datele de exemplu permit verificarea separată a tuturor celor cinci sarcini." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1440" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4. Conceptual" id="p7">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="29" value="R9" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="17" target="19">
+          <mxGeometry as="geometry" relative="1" x="0.22999999999999998">
+            <Array as="points">
+              <mxPoint x="1427.5" y="682" />
+              <mxPoint x="826" y="682" />
+              <mxPoint x="826" y="832" />
+              <mxPoint x="1022.5" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="R8" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="15" target="17">
+          <mxGeometry as="geometry" relative="1" x="0.12">
+            <Array as="points">
+              <mxPoint x="1427.5" y="118" />
+              <mxPoint x="1238" y="118" />
+              <mxPoint x="1238" y="658" />
+              <mxPoint x="1427.5" y="658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="R7" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="13" target="17">
+          <mxGeometry as="geometry" relative="1" x="0.010000000000000009">
+            <Array as="points">
+              <mxPoint x="1022.5" y="126" />
+              <mxPoint x="1245" y="126" />
+              <mxPoint x="1245" y="666" />
+              <mxPoint x="1427.5" y="666" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="R6" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="13" target="15">
+          <mxGeometry as="geometry" relative="1" x="-0.09999999999999998">
+            <Array as="points">
+              <mxPoint x="1022.5" y="134" />
+              <mxPoint x="1427.5" y="134" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="R5" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="15">
+          <mxGeometry as="geometry" relative="1" x="-0.21000000000000002">
+            <Array as="points">
+              <mxPoint x="212.5" y="482" />
+              <mxPoint x="1238" y="482" />
+              <mxPoint x="1238" y="142" />
+              <mxPoint x="1427.5" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="R4" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="13">
+          <mxGeometry as="geometry" relative="1" x="-0.32">
+            <Array as="points">
+              <mxPoint x="617.5" y="118" />
+              <mxPoint x="1022.5" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="R3" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="13">
+          <mxGeometry as="geometry" relative="1" x="-0.43000000000000005">
+            <Array as="points">
+              <mxPoint x="212.5" y="806" />
+              <mxPoint x="826" y="806" />
+              <mxPoint x="826" y="126" />
+              <mxPoint x="1022.5" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="R2" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry as="geometry" relative="1" x="-0.54">
+            <Array as="points">
+              <mxPoint x="212.5" y="134" />
+              <mxPoint x="23" y="134" />
+              <mxPoint x="23" y="814" />
+              <mxPoint x="212.5" y="814" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="R1" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry as="geometry" relative="1" x="-0.65">
+            <Array as="points">
+              <mxPoint x="212.5" y="142" />
+              <mxPoint x="30" y="142" />
+              <mxPoint x="30" y="482" />
+              <mxPoint x="212.5" y="482" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Sarcina 4 / ER–EER" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Platforma de tranzacționare „Colectioneri.md”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ER/EER compact: entitate cu atribute în casetă; PK = atribut identificator. (min,max) de lângă numele entității indică participarea ei. ISA = subclasă; * = atribut suplimentar." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;MEMBRU&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] email&lt;/b&gt;&lt;br&gt;parola_hash&lt;br&gt;data_inregistrare" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;CUMPARATOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] email&lt;/b&gt;&lt;br&gt;adresa_livrare&lt;br&gt;limita_credit" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="536" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;VANZATOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="840" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] email&lt;/b&gt;&lt;br&gt;iban&lt;br&gt;telefon_asistenta" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="876" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;CATEGORIE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="160" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] id_categorie&lt;/b&gt;&lt;br&gt;denumire&lt;br&gt;comision_proc&lt;br&gt;durata_ore" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="196" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;OBIECT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="325" height="219" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] cod_obiect&lt;/b&gt;&lt;br&gt;titlu&lt;br&gt;descriere_stare&lt;br&gt;pret_pornire&lt;br&gt;start_licitatie&lt;br&gt;pas_minim *&lt;br&gt;pret_rezerva *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="196" width="325" height="183" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;OFERTA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK] id_oferta&lt;/b&gt;&lt;br&gt;suma&lt;br&gt;moment" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;ADJUDECARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="700" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK] id_adjudecare&lt;/b&gt;&lt;br&gt;data_finalizare" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="736" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;FEEDBACK&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="850" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK] id_adjudecare&lt;/b&gt;&lt;br&gt;nota&lt;br&gt;comentariu&lt;br&gt;raspuns_vanzator *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="886" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="ASOCIERI ȘI REGULI DE CITIRE" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="R1   MEMBRU (0,1) — ISA · suprapusă, totală — CUMPARATOR (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="R2   MEMBRU (0,1) — ISA · suprapusă, totală — VANZATOR (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="R3   VANZATOR (0,N) — listează — OBIECT (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="R4   CATEGORIE (0,N) — clasifică — OBIECT (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1393" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="R5   CUMPARATOR (0,N) — plasează — OFERTA (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1436" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="R6   OBIECT (0,N) — primește — OFERTA (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1479" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="R7   OBIECT (0,1) — se adjudecă — ADJUDECARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="R8   OFERTA (0,1) — câștigă — ADJUDECARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="R9   ADJUDECARE (0,1) — primește — FEEDBACK (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4. Relațional" id="p8">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Sarcina 4 / Model relațional" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Platforma de tranzacționare „Colectioneri.md”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PK = cheie primară; FK = cheie străină; ? = NULL permis; * = atribut suplimentar. Fiecare FK indică explicit tabela țintă prin →; coloana țintă este în dicționarul de date. Unicitățile și regulile complete sunt în raport și SQL." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;MEMBRU&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] email : TEXT&lt;/b&gt;&lt;br&gt;parola_hash : TEXT&lt;br&gt;data_inregistrare : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;CUMPARATOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK/FK] email : TEXT → MEMBRU&lt;/b&gt;&lt;br&gt;adresa_livrare : TEXT&lt;br&gt;limita_credit : NUMERIC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="536" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;VANZATOR&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="840" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK/FK] email : TEXT → MEMBRU&lt;/b&gt;&lt;br&gt;iban : TEXT&lt;br&gt;telefon_asistenta : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="876" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;CATEGORIE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="160" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] id_categorie : INTEGER&lt;/b&gt;&lt;br&gt;denumire : TEXT&lt;br&gt;comision_proc : NUMERIC&lt;br&gt;durata_ore : INTEGER" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="196" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;OBIECT&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="325" height="269" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] cod_obiect : TEXT&lt;/b&gt;&lt;br&gt;titlu : TEXT&lt;br&gt;descriere_stare : TEXT&lt;br&gt;pret_pornire : NUMERIC&lt;br&gt;start_licitatie : TEXT&lt;br&gt;pas_minim * : NUMERIC&lt;br&gt;pret_rezerva * : NUMERIC ?&lt;br&gt;[FK] email_vanzator : TEXT → VANZATOR&lt;br&gt;[FK] id_categorie : INTEGER → CATEGORIE" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="196" width="325" height="233" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;OFERTA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="160" width="325" height="169" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK] id_oferta : INTEGER&lt;/b&gt;&lt;br&gt;suma : NUMERIC&lt;br&gt;moment : TEXT&lt;br&gt;[FK] email_cumparator : TEXT → CUMPARATOR&lt;br&gt;[FK] cod_obiect : TEXT → OBIECT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="196" width="325" height="133" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;ADJUDECARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="700" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK] id_adjudecare : INTEGER&lt;/b&gt;&lt;br&gt;[FK] cod_obiect : TEXT → OBIECT,OFERTA&lt;br&gt;[FK] id_oferta : INTEGER → OFERTA&lt;br&gt;data_finalizare : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="736" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;FEEDBACK&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="850" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK/FK] id_adjudecare : INTEGER → ADJUDECARE&lt;/b&gt;&lt;br&gt;nota : INTEGER&lt;br&gt;comentariu : TEXT&lt;br&gt;raspuns_vanzator * : TEXT ?" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="886" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="REFERINȚE ȘI CONSTRÂNGERI" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Referințele FK sunt înscrise în tabele pentru a evita intersectarea liniilor. PK/FK marchează cheia partajată a unei subclase sau componentele unei asocieri." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="1570" height="52" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Cheile compuse se citesc împreună: toate atributele marcate PK formează cheia primară. O săgeată către o tabelă indică referința la cheia ei; cazul FK compusă OFERTA este explicat în raport." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="NOT NULL, UNIQUE, CHECK și detaliile de participare sunt enumerate în raport. Schema SQL și datele de exemplu permit verificarea separată a tuturor celor cinci sarcini." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1440" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="5. Conceptual" id="p9">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="34" value="R10" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="11" target="23">
+          <mxGeometry as="geometry" relative="1" x="0.33999999999999997">
+            <Array as="points">
+              <mxPoint x="1022.5" y="134" />
+              <mxPoint x="1245" y="134" />
+              <mxPoint x="1245" y="964" />
+              <mxPoint x="1427.5" y="964" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="R9" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="11" target="21">
+          <mxGeometry as="geometry" relative="1" x="0.22999999999999998">
+            <Array as="points">
+              <mxPoint x="1022.5" y="142" />
+              <mxPoint x="421" y="142" />
+              <mxPoint x="421" y="942" />
+              <mxPoint x="617.5" y="942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="R8" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="11" target="19">
+          <mxGeometry as="geometry" relative="1" x="0.12">
+            <Array as="points">
+              <mxPoint x="1022.5" y="118" />
+              <mxPoint x="23" y="118" />
+              <mxPoint x="23" y="918" />
+              <mxPoint x="212.5" y="918" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="R7" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="15" target="17">
+          <mxGeometry as="geometry" relative="1" x="0.010000000000000009">
+            <Array as="points">
+              <mxPoint x="1427.5" y="526" />
+              <mxPoint x="840" y="526" />
+              <mxPoint x="840" y="576" />
+              <mxPoint x="1022.5" y="576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="R6" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="17">
+          <mxGeometry as="geometry" relative="1" x="-0.09999999999999998">
+            <Array as="points">
+              <mxPoint x="1427.5" y="134" />
+              <mxPoint x="826" y="134" />
+              <mxPoint x="826" y="584" />
+              <mxPoint x="1022.5" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="R5" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="17">
+          <mxGeometry as="geometry" relative="1" x="-0.21000000000000002">
+            <Array as="points">
+              <mxPoint x="1022.5" y="142" />
+              <mxPoint x="833" y="142" />
+              <mxPoint x="833" y="592" />
+              <mxPoint x="1022.5" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="R4" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="13">
+          <mxGeometry as="geometry" relative="1" x="-0.32">
+            <Array as="points">
+              <mxPoint x="1022.5" y="118" />
+              <mxPoint x="30" y="118" />
+              <mxPoint x="30" y="498" />
+              <mxPoint x="212.5" y="498" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="R3" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry as="geometry" relative="1" x="-0.43000000000000005">
+            <Array as="points">
+              <mxPoint x="1427.5" y="126" />
+              <mxPoint x="1022.5" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="R2" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="11">
+          <mxGeometry as="geometry" relative="1" x="-0.54">
+            <Array as="points">
+              <mxPoint x="617.5" y="134" />
+              <mxPoint x="1022.5" y="134" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="R1" style="edgeStyle=none;rounded=1;html=1;endArrow=none;strokeColor=#087E8B;strokeWidth=1.6;fontFamily=Arial;fontSize=12;fontColor=#087E8B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry as="geometry" relative="1" x="-0.65">
+            <Array as="points">
+              <mxPoint x="212.5" y="142" />
+              <mxPoint x="617.5" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Sarcina 5 / ER–EER" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Controlul vânzărilor „Auto-Star”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ER/EER compact: entitate cu atribute în casetă; PK = atribut identificator. (min,max) de lângă numele entității indică participarea ei. ISA = subclasă; * = atribut suplimentar." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;MARCA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_marca&lt;/b&gt;&lt;br&gt;nume_marca&lt;br&gt;tara" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;MODEL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] cod_model&lt;/b&gt;&lt;br&gt;nume_model&lt;br&gt;pret_baza" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;DEALER&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] cod_dealer&lt;/b&gt;&lt;br&gt;denumire&lt;br&gt;adresa" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;VEHICUL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="325" height="219" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] vin&lt;/b&gt;&lt;br&gt;culoare&lt;br&gt;an_fabricatie&lt;br&gt;capacitate_cm3&lt;br&gt;km_parcursi&lt;br&gt;tip_propulsie&lt;br&gt;norma_poluare *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="196" width="325" height="183" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;DOTARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="540" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] cod_dotare&lt;/b&gt;&lt;br&gt;denumire&lt;br&gt;cost_suplimentar" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="576" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;CLIENT_AUTO&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="560" width="325" height="169" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK] cnp&lt;/b&gt;&lt;br&gt;nume&lt;br&gt;prenume&lt;br&gt;date_buletin&lt;br&gt;telefon_contact *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="596" width="325" height="133" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;VANZARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="610" width="325" height="169" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK] nr_factura&lt;/b&gt;&lt;br&gt;data_facturare&lt;br&gt;garantie_luni&lt;br&gt;pret_final&lt;br&gt;metoda_plata *" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="646" width="325" height="133" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;ELECTRIC&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="960" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK] vin&lt;/b&gt;&lt;br&gt;capacitate_baterie_kwh" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="996" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;TERMIC&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="960" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;[PK] vin&lt;/b&gt;&lt;br&gt;combustibil" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="996" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;HIBRID&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="990" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;[PK] vin&lt;/b&gt;&lt;br&gt;capacitate_baterie_kwh&lt;br&gt;combustibil" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="1026" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="ASOCIERI ȘI REGULI DE CITIRE" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="R1   MARCA (0,N) — produce — MODEL (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="R2   MODEL (0,N) — definește — VEHICUL (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="R3   DEALER (0,N) — are în custodie — VEHICUL (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="R4   VEHICUL (0,N) — este echipat cu — DOTARE (0,N)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1393" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="R5   VEHICUL (0,1) — este vândut — VANZARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1436" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="R6   DEALER (0,N) — emite — VANZARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1479" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="R7   CLIENT_AUTO (0,N) — cumpără — VANZARE (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1264" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="R8   VEHICUL (0,1) — ISA · disjunctă, totală — ELECTRIC (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1307" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="R9   VEHICUL (0,1) — ISA · disjunctă, totală — TERMIC (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1350" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="R10   VEHICUL (0,1) — ISA · disjunctă, totală — HIBRID (1,1)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#087E8B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1393" width="790" height="40" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="5. Relațional" id="p10">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1660" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Sarcina 5 / Model relațional" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=30;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Controlul vânzărilor „Auto-Star”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=16;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="83" width="1600" height="45" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PK = cheie primară; FK = cheie străină; ? = NULL permis; * = atribut suplimentar. Fiecare FK indică explicit tabela țintă prin →; coloana țintă este în dicționarul de date. Unicitățile și regulile complete sunt în raport și SQL." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1580" width="1590" height="55" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;MARCA&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;[PK] id_marca : INTEGER&lt;/b&gt;&lt;br&gt;nume_marca : TEXT&lt;br&gt;tara : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;MODEL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="160" width="325" height="144" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;[PK] cod_model : TEXT&lt;/b&gt;&lt;br&gt;nume_model : TEXT&lt;br&gt;pret_baza : NUMERIC&lt;br&gt;[FK] id_marca : INTEGER → MARCA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="196" width="325" height="108" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;DEALER&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="160" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;[PK] cod_dealer : TEXT&lt;/b&gt;&lt;br&gt;denumire : TEXT&lt;br&gt;adresa : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="196" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;VEHICUL&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="325" height="269" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;[PK] vin : TEXT&lt;/b&gt;&lt;br&gt;culoare : TEXT&lt;br&gt;an_fabricatie : INTEGER&lt;br&gt;capacitate_cm3 : INTEGER&lt;br&gt;km_parcursi : INTEGER&lt;br&gt;tip_propulsie : TEXT&lt;br&gt;norma_poluare * : TEXT&lt;br&gt;[FK] cod_model : TEXT → MODEL&lt;br&gt;[FK] cod_dealer : TEXT → DEALER" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="196" width="325" height="233" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;DOTARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="540" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;[PK] cod_dotare : TEXT&lt;/b&gt;&lt;br&gt;denumire : TEXT&lt;br&gt;cost_suplimentar : NUMERIC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="576" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;VEHICUL_DOTARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="540" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;[PK/FK] vin : TEXT → VEHICUL&lt;/b&gt;&lt;br&gt;&lt;b&gt;[PK/FK] cod_dotare : TEXT → DOTARE&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="576" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;CLIENT_AUTO&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="560" width="325" height="169" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;[PK] cnp : TEXT&lt;/b&gt;&lt;br&gt;nume : TEXT&lt;br&gt;prenume : TEXT&lt;br&gt;date_buletin : TEXT&lt;br&gt;telefon_contact * : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="596" width="325" height="133" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;VANZARE&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="610" width="325" height="244" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;[PK] nr_factura : TEXT&lt;/b&gt;&lt;br&gt;data_facturare : TEXT&lt;br&gt;garantie_luni : INTEGER&lt;br&gt;pret_final : NUMERIC&lt;br&gt;metoda_plata * : TEXT&lt;br&gt;[FK] vin : TEXT → VEHICUL&lt;br&gt;[FK] cod_dealer : TEXT → DEALER&lt;br&gt;[FK] cnp : TEXT → CLIENT_AUTO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="860" y="646" width="325" height="208" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;ELECTRIC&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="960" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;[PK/FK] vin : TEXT → VEHICUL&lt;/b&gt;&lt;br&gt;capacitate_baterie_kwh : NUMERIC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="50" y="996" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;TERMIC&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="960" width="325" height="94" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;[PK/FK] vin : TEXT → VEHICUL&lt;/b&gt;&lt;br&gt;combustibil : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="455" y="996" width="325" height="58" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="&lt;b&gt;HIBRID&lt;/b&gt;" style="swimlane;html=1;startSize=36;horizontal=1;rounded=1;arcSize=8;fillColor=#17324D;swimlaneFillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=left;spacingLeft=12;collapsible=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="990" width="325" height="119" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;b&gt;[PK/FK] vin : TEXT → VEHICUL&lt;/b&gt;&lt;br&gt;capacitate_baterie_kwh : NUMERIC&lt;br&gt;combustibil : TEXT" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Arial;fontSize=13;fontColor=#17324D;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="1026" width="325" height="83" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="REFERINȚE ȘI CONSTRÂNGERI" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=18;fontColor=#17324D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="1590" height="32" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Referințele FK sunt înscrise în tabele pentru a evita intersectarea liniilor. PK/FK marchează cheia partajată a unei subclase sau componentele unei asocieri." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="1570" height="52" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Cheile compuse se citesc împreună: toate atributele marcate PK formează cheia primară. O săgeată către o tabelă indică referința la cheia ei; cazul FK compusă OFERTA este explicat în raport." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1350" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="NOT NULL, UNIQUE, CHECK și detaliile de participare sunt enumerate în raport. Schema SQL și datele de exemplu permit verificarea separată a tuturor celor cinci sarcini." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=17;fontColor=#546477;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1440" width="1570" height="60" as_="geometry" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

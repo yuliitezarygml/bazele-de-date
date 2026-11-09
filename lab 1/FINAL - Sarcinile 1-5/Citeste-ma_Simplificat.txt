@@ -1,0 +1,14 @@
+VERSIUNEA CURENTĂ — MODEL ER SIMPLIFICAT
+
+Deschideți Laborator_1_Sarcinile_1-5_Simplificat.drawio.
+Fișierul are 18 pagini editabile și folosește numai entități, asocieri și atribute.
+Punctul 1.E păstrează cele două entități: MENTOR și ANGAJAT_FORMARE.
+Simbolurile și ierarhiile ISA au fost eliminate.
+La sarcinile 2, 3 și 5 au fost eliminate entitățile/tabelele suplimentare de subtip.
+Specia animalului, tipul punctului de tranzit și tipul propulsiei rămân atribute simple.
+La sarcina 4, MEMBRU este legat de profilurile CUMPARATOR și VANZATOR prin asocieri obișnuite 1:1.
+
+Schema_simplificata.sql și Exemple_date_simplificate.sql corespund acestui fișier.
+Rulați schema, apoi datele de exemplu într-o bază SQLite nouă.
+Verificare: 18 pagini conectate, 39 tabele, 37 referințe exacte, integritate SQL validă.
+Versiunile anterioare au fost păstrate; nu descriu toate modificările acestei simplificări.
