@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="18">
     <diagram id="page1" name="1.A · ER">
-        <mxGraphModel dx="2722" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1250" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
+        <mxGraphModel dx="1990" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1250" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
             <root>
                 <mxCell id="0" value=""/>
                 <mxCell id="1" parent="0" value=""/>
@@ -820,7 +820,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="page11" name="2 · ER">
-        <mxGraphModel dx="3006" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="1950" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
+        <mxGraphModel dx="3100" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="1950" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
             <root>
                 <mxCell id="0" value=""/>
                 <mxCell id="1" parent="0" value=""/>
@@ -1063,14 +1063,14 @@
                 <mxCell id="rev1011" parent="1" style="ellipse;html=1;whiteSpace=wrap;fontFamily=Trebuchet MS;fontSize=15;align=center;verticalAlign=middle;fontColor=#16204F;fillColor=#E4E9FB;strokeColor=#3A4A9A;strokeWidth=1.5;dashed=1;dashPattern=6 3;" value="&lt;span style=&quot;display:inline-block;border-bottom:1px dotted #3A4A9A;padding-bottom:2px;&quot;&gt;[FK] MEDIC.nr_legitimatie&lt;/span&gt;" vertex="1">
                     <mxGeometry height="52" width="300" x="385" y="739" as="geometry"/>
                 </mxCell>
-                <mxCell id="accent10" parent="1" vertex="1" value="" style="rounded=1;arcSize=50;html=1;fillColor=#D98B4A;strokeColor=none;">
-                    <mxGeometry x="50" y="94" width="220" height="6" as="geometry"/>
+                <mxCell id="accent10" parent="1" style="rounded=1;arcSize=50;html=1;fillColor=#D98B4A;strokeColor=none;" value="" vertex="1">
+                    <mxGeometry height="6" width="220" x="50" y="94" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="page12" name="2 · Tabele">
-        <mxGraphModel dx="3280" dy="2136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="2150" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
+        <mxGraphModel dx="3016" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="2150" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
             <root>
                 <mxCell id="0" value=""/>
                 <mxCell id="1" parent="0" value=""/>
@@ -1185,8 +1185,8 @@
                 <mxCell id="n35" parent="n27" style="html=1;whiteSpace=wrap;fontFamily=Trebuchet MS;fontSize=15;overflow=hidden;align=left;verticalAlign=middle;spacingLeft=16;fontColor=#1F140E;strokeColor=#D9C2B2;fillColor=#E6EBFB;" value="&lt;span style=&quot;background-color:#DDE3FA;color:#16204F;border:1px solid #3A4A9A;border-radius:4px;padding:1px 6px;font-size:14px;font-weight:bold;&quot;&gt;FK&lt;/span&gt;&amp;nbsp;&amp;nbsp;nr_legitimatie : TEXT ⟶ MEDIC.nr_legitimatie" vertex="1">
                     <mxGeometry height="53" width="560" y="429" as="geometry"/>
                 </mxCell>
-                <mxCell id="accent11" parent="1" vertex="1" value="" style="rounded=1;arcSize=50;html=1;fillColor=#D98B4A;strokeColor=none;">
-                    <mxGeometry x="65" y="94" width="220" height="6" as="geometry"/>
+                <mxCell id="accent11" parent="1" style="rounded=1;arcSize=50;html=1;fillColor=#D98B4A;strokeColor=none;" value="" vertex="1">
+                    <mxGeometry height="6" width="220" x="65" y="94" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
@@ -1729,7 +1729,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="page14" name="3 · Tabele">
-        <mxGraphModel dx="4123" dy="2686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4200" pageHeight="2150" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
+        <mxGraphModel dx="4133" dy="2544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4200" pageHeight="2150" background="#FFFFFF" math="0" shadow="0" adaptiveColors="none">
             <root>
                 <mxCell id="0" value=""/>
                 <mxCell id="1" parent="0" value=""/>
@@ -1974,8 +1974,8 @@
                 <mxCell id="n49" parent="n46" style="html=1;whiteSpace=wrap;fontFamily=Trebuchet MS;fontSize=17;overflow=hidden;align=left;verticalAlign=middle;spacingLeft=16;fontColor=#1F140E;strokeColor=#D9C2B2;fillColor=#E6EBFB;" value="&lt;span style=&quot;background-color:#DDE3FA;color:#16204F;border:1px solid #3A4A9A;border-radius:4px;padding:1px 6px;font-size:14px;font-weight:bold;&quot;&gt;FK&lt;/span&gt;&amp;nbsp;&amp;nbsp;cod_sosire : TEXT ⟶ PUNCT_TRANZIT.cod_punct" vertex="1">
                     <mxGeometry height="53" width="560" y="164" as="geometry"/>
                 </mxCell>
-                <mxCell id="accent13" parent="1" vertex="1" value="" style="rounded=1;arcSize=50;html=1;fillColor=#D98B4A;strokeColor=none;">
-                    <mxGeometry x="65" y="94" width="220" height="6" as="geometry"/>
+                <mxCell id="accent13" parent="1" style="rounded=1;arcSize=50;html=1;fillColor=#D98B4A;strokeColor=none;" value="" vertex="1">
+                    <mxGeometry height="6" width="220" x="65" y="94" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
